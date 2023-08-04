@@ -31,12 +31,14 @@ The ^ anchor and the username component [\w\.-]+ play a crucial role in email va
 The "@" symbol is a mandatory part of any email address. We'll explore how it's matched in the regex pattern. Additionally, the domain name component [\w\.-]+ is broken down to ensure the validity of domain names.
 
 ### OR Operator
+Logic outside of a bracket expression, especially within a grouping construct or between two different grouping constructs.
 
 ### Character Classes
 
 Escaping characters like \. is essential for matching literal characters like dots. We'll also examine how the top-level domain (TLD) component \w+ ensures the email address ends with a valid TLD.
 
 ### Flags
+Flags are placed at the end of a regex
 
 ### Grouping and Capturing
 
@@ -53,4 +55,4 @@ Anything inside a set of square brackets ([]) represents a range of characters t
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+https://github.com/LaurenCaudle1234/specificregax/blob/main/Develop/gist-template.md
